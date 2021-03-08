@@ -2,8 +2,6 @@ name: pr-lint2
 
 on:
   pull_request:
-    branches:
-      - develop
     paths:
       - "**.py"
     types:
