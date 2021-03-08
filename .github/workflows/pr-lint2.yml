@@ -2,13 +2,11 @@ name: pr-lint2
 
 on:
   pull_request:
+    branches:
+      - master
     paths:
       - "**.py"
-    types:
-      - opened
-        ready_for_review
-        reopened
-        synchronize
+    types: [opened, synchronize, ready_for_review, reopened]
 
 jobs:
   run-lint:
