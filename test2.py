@@ -1,4 +1,4 @@
 a=1
-import re
 b=2
+import re
 c=3
