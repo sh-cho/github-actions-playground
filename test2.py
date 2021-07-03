@@ -1,4 +1,3 @@
-a=1
-b=2
-import re
-c=3
+a = 1
+b = 2
+c = 3
